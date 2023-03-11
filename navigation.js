@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
     <>
@@ -23,14 +24,20 @@ const Navigation = () => {
       <div className=" menu5" id="skp2">
         <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75">
           {" "}
-          <a className="cursor-pointer">Home</a>
+          <Link to="/" className="cursor-pointer">
+            Home
+          </Link>
         </li>
         <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75">
           {" "}
-          <a className="cursor-pointer">About</a>
+          <Link to="/about" className="cursor-pointer">
+            About
+          </Link>
         </li>
         <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75">
-          <a className="cursor-pointer">Contact</a>
+          <Link to="/contact" className="cursor-pointer">
+            Contact
+          </Link>
         </li>
         <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75">
           <a className="cursor-pointer">Facbook</a>

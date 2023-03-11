@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 let emails = [];
 const Footer = () => {
   const [email, setemail] = useState("");
@@ -65,9 +66,11 @@ const Footer = () => {
             Join our <span className=" text-red-600"> Club </span>
           </h2>
           <p className="text-white">If you are imterdted then joism</p>
-          <button className=" bg-red-600 text-white  cursor-pointer pl-5 pr-5 pt-2 pb-2 inline-block mt-2 mb-2  ">
-            Join
-          </button>
+          <li className=" bg-red-600 p-3 inline-block text-white list-none mt-2 ">
+            <Link to="/contact" className="cursor-pointer">
+              Join-Now
+            </Link>
+          </li>
         </div>
       </div>
     </>
