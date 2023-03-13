@@ -38,8 +38,6 @@
   color: white;
   position: fixed;
   padding-top: 0.75rem;
-  top: 40px;
-  opacity: 0.75;
   list-style: none;
 }
 .menu2 {
@@ -57,11 +55,40 @@
   color: white;
   position: fixed;
   padding-top: 0.75rem;
-  top: 40px;
-  opacity: 0.75;
 }
 .about-img {
   background: url(../images/bg-images-about.jpg) no-repeat center center / cover;
   height: 100%;
   width: 100%;
+}
+.sports-1 {
+  background: url(../images/sports-img-1.jpg) no-repeat center center / cover;
+  height: 100%;
+  width: 100%;
+}
+
+/*media query*/
+/*applying media query for navigation bar--- for mobile diveces  */
+@media only screen and (max-width: 767px) {
+  .menu1 {
+    justify-content: space-around;
+    position: static;
+    text-align: center;
+    padding-left: 14px;
+  }
+  .menu4 {
+    position: static;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 14px;
+  }
+  .football {
+    display: none;
+  }
+}
+/*aplying media query for main contaner -- for mobile divices */
+@media only screen and (max-width: 767px) {
+  .about-img {
+    background: none;
+  }
 }

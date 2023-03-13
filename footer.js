@@ -10,7 +10,7 @@ const Footer = () => {
   };
   return (
     <>
-      <div className="footer grid grid-cols-4 grid-rows-1 h-1/2 mt-4 bg-black  gap-4  basis-0 ">
+      <div className="footer grid grid-cols-4 grid-rows-1 h-1/2 mt-4 bg-black  gap-4  basis-0 mini:grid-cols-1 mini:grid-rows-2 mini:h-full mini:gap-0 md:grid-cols-2 md:h-3/4 ">
         <div className="p-5">
           <h2 className="text-white text-3xl ">
             News <span className=" text-red-600">Grid</span>

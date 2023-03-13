@@ -4,8 +4,8 @@ const Main = () => {
   return (
     <>
       <div class="football">
-        <div class="  grid gap-0 grid-cols-2 grid-rows-1 ">
-          {Array(2)
+        <div class=" h-[300px] w-[350px] top-[120px] left-[450px] relative  ">
+          {Array(1)
             .fill(" ")
             .map((curent) => {
               return <Cards />;

@@ -2,8 +2,8 @@ import Cardscontain from "./utility/classcontan";
 const Cards2 = () => {
   return (
     <>
-      <h2 class=" text-red-600 font-bold text-xl ">EDITOR</h2>
-      <div class="grid  grid-cols-3 grid-rows-3 gap-6  ">
+      <h2 class=" text-red-600 font-bold text-xl mini:text-center ">EDITOR</h2>
+      <div class="grid  grid-cols-3 grid-rows-3 gap-6 mini:grid-cols-1 md:grid-cols-2 ">
         <div class="   w-full bg-black h-80 max-h-full text-white p-5 ">
           <h1 class="inline-block bg-pink-600 rounded pl-2 pr-2 pt-1 pb-1 ">
             TECNOLOGY
@@ -62,7 +62,7 @@ const Cards2 = () => {
           </h1>
           <Cardscontain />
         </div>
-        <div class=" tecnology   w-full h-80 max-h-full p-5 ">
+        <div class=" tecnology mini:hidden   w-full h-80 max-h-full p-5 ">
           <h1 class="inline-block bg-pink-600 rounded pl-2 pr-2 pt-1 pb-1 text-white ">
             SPORTS
           </h1>

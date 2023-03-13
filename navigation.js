@@ -22,13 +22,13 @@ const Navigation = () => {
         </li>
       </div>
       <div className=" menu5" id="skp2">
-        <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75">
+        <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75 text-base">
           {" "}
           <Link to="/" className="cursor-pointer">
             Home
           </Link>
         </li>
-        <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75">
+        <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75 ">
           {" "}
           <Link to="/about" className="cursor-pointer">
             About
@@ -40,13 +40,28 @@ const Navigation = () => {
           </Link>
         </li>
         <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75">
-          <a className="cursor-pointer">Facbook</a>
+          <Link
+            to="https://www.facebook.com/"
+            className=" text-black ml-4 text-xl "
+          >
+            <i class="fab fa-facebook "></i>
+          </Link>
         </li>
         <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75">
-          <a className="cursor-pointer">Tweeter</a>
+          <Link
+            to="https://www.instagram.com/accounts/login/"
+            className=" text-black ml-4 text-xl "
+          >
+            <i class="fab fa-instagram"></i>
+          </Link>
         </li>
         <li className="bg-white p-4 mr-4 mb-3 text-black hover:mr-0 duration-75">
-          <a className="cursor-pointer">watsapp</a>
+          <Link
+            to="https://www.twitter.com"
+            className=" text-black ml-4 text-xl"
+          >
+            <i class="fab fa-twitter-square"></i>
+          </Link>
         </li>
         <li className="bg-white p-4 mr-4 mb-3 text-black  hover:mr-0 duration-75">
           {" "}
